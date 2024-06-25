@@ -20,7 +20,7 @@
   height: 100vh;
   z-index: 999;
   position: fixed;
-  background-color: #00c8ff8e;
+  background-color: hsla(255, 5%, 16%, 0.557);
   backdrop-filter: blur(10px);
   top: 0;
   display: flex;
@@ -68,7 +68,7 @@ nav {
   font-size: 1rem;
   padding: 0.8rem 0rem;
   flex-wrap: wrap;
-  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
@@ -76,7 +76,7 @@ nav {
   position: fixed;
   background-color: white;
   top: 0;
-}
+border-radius: 1rem;}
 nav p {
   font-size: 2vw;
   font-weight: 500;

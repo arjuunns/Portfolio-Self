@@ -92,3 +92,14 @@ var typed = new Typed("#auto-type", {
   loop: true,
   backDelay: 1000,
 });
+
+
+// DARK MODE =>
+
+const x = document.querySelector(".toggle");
+const body = document.querySelector("body");
+const nav = document.querySelector("nav");
+x.addEventListener('click',(e)=>{
+  body.style.backgroundColor = "black"
+  nav.style.backgroundColor = "#212121"
+})

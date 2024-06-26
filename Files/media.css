@@ -81,7 +81,7 @@
 /********************************** phone view ****************************************************/
 @media only screen and (max-width: 550px) {
   .cursor{
-    width: 0px
+    display: none;
   }
 
   .typewriter{
@@ -140,6 +140,7 @@
     justify-content: center;
     gap: 1rem;
     font-size: small;
+    padding: 100px 0px;
   }
   .send-btn {
     display: flex;
@@ -150,7 +151,7 @@
     padding: 1.5rem 0rem;
     box-sizing: border-box;
     border-radius: 0.5rem;
-    width: 63%;
+    width: 35%;
   }
   .hero-right img {
     height: 250px;
@@ -202,4 +203,8 @@
     gap: 0.5rem;
     width: 80%;
   }
+  .credit {
+    margin-top: 7rem;
+  }
+  
 }

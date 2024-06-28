@@ -93,13 +93,65 @@ var typed = new Typed("#auto-type", {
   backDelay: 1000,
 });
 
-
 // DARK MODE =>
 
-const x = document.querySelector(".toggle");
-const body = document.querySelector("body");
-const nav = document.querySelector("nav");
-x.addEventListener('click',(e)=>{
-  body.style.backgroundColor = "black"
-  nav.style.backgroundColor = "#212121"
-})
+// const toggleMode = document.querySelector("#switch");
+// const body = document.querySelector("body");
+// const nav = document.querySelector("nav");
+// const darkScheme = "black";
+// const lightScheme = "white";
+// const navLinks = document.querySelectorAll(".nav-list a");
+// const footerLinks = document.querySelectorAll(".credit-ul a");
+// const socialLinks = document.querySelectorAll("i");
+// const rightBox = document.querySelector(".box-right");
+
+// const darkmode = function () {
+//   body.style.backgroundColor = "black";
+//   body.style.color = "white";
+//   nav.style.backgroundColor = "rgba(16, 15, 15,1)";
+//   crsr.style.borderColor = "red";
+//   rightBox.style.backgroundColor = "black";
+//   body.style.transition = "all 500ms"
+//   navLinks.forEach(link => {
+//     link.style.color = "white";
+//   });
+//   footerLinks.forEach(link => {
+//     link.style.color = "white";
+//   });
+//   socialLinks.forEach(link => {
+//     link.style.color = "white";
+//     // link.style.backgroundColor = "red"
+//     link.style.boxShadow = "0px -4x 5px 0px inset grey";
+//   });
+// };
+
+// const lightmode = function () {
+//   body.style.backgroundColor = "white";
+//   body.style.color = "black";
+//   nav.style.backgroundColor = "white";
+//   crsr.style.borderColor = "hsla(0, 0%, 0%, 40%)";
+//   rightBox.style.backgroundColor = "white";
+//   navLinks.forEach(link => {
+//     link.style.color = "black";
+//   });
+//   footerLinks.forEach(link => {
+//     link.style.color = "black";
+//   });
+//   socialLinks.forEach(link => {
+//     link.style.color = "black";
+//     // link.style.backgroundColor = "red";
+//     link.style.boxShadow = "0px 2px 5px 0px  inset rgba(0, 0, 0, 0.25)";
+//   });
+// };
+
+// let isDarkMode = true;
+// toggleMode.addEventListener("toggle", (e) => {
+  // if (isDarkMode) {
+    // darkmode();
+    // body.toggle("dark-mode")
+  // } else {
+  //   // lightmode();
+  //   body.remove(".dark-mode");
+  // }
+  // isDarkMode = !isDarkMode;
+// });

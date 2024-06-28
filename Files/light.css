@@ -147,7 +147,7 @@ nav img {
 /************************************** Hero Section ********************************/
 
 .hero {
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 5rem;
   padding-left: 4vw;
   display: flex;
@@ -164,7 +164,7 @@ nav img {
   gap: 2rem;
 }
 .hero-left h1 {
-  font-size: 2.7rem;
+  font-size: 3.7rem;
 }
 .hero-left h2 {
   font-weight: 400;
@@ -181,9 +181,9 @@ nav img {
 }
 .hero-left p {
   font-weight: 300;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.3;
-  color: #444444;
+  color: #fffcfc;
 }
 .hero-right {
   /* border: 2px solid black; */

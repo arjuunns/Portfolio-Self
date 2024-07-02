@@ -22,13 +22,11 @@ textarea.message{
   color: white;
 }
 .cursor {
-  height: 28px;
-  height: 28px;
-  width: 28px;
-  width: 28px;
-  background-color: transparent;
+  height: 25px;
+  width: 25px;
+  background-color: hsl(0, 100%, 50%);
   border-radius: 50%;
-  border: 1px solid hsla(0, 0%, 0%, 40%);
+  /* border: 1px solid hsl(123, 100%, 50%); */
   position: absolute;
   z-index: 20;
   transition: all linear 50ms;
@@ -201,8 +199,8 @@ nav img {
   justify-content: center;
 }
 .hero-right img {
-  height: 300px;
-  border-radius: 500px;
+  /* height: 300px; */
+  border-radius: 10%;
 }
 .button-flex {
   display: flex;
@@ -471,5 +469,11 @@ textarea {
           justify-content: space-between;
           align-items: center;
       }
+  }
+  
+  #footer-end{
+    font-family: "Caveat";
+    color: #00eaff;
+    font-size: 1.5rem;
   }
   

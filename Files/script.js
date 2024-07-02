@@ -81,7 +81,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 var typed = new Typed("#auto-type", {
   strings: [
-    "Junior FrontEnd Developer.",
+    "Newbie FrontEnd Developer.",
     "Backend Enthusiast.",
     "Competitive Programmer.",
     "CapyBara Fan.",
@@ -155,3 +155,4 @@ var typed = new Typed("#auto-type", {
   // }
   // isDarkMode = !isDarkMode;
 // });
+
